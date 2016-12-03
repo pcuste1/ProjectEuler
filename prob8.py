@@ -1,7 +1,7 @@
 def main():
     roof = int(input("Please enter the roof: "))
     greatestTotal = 0
-    file = open("text.txt", "r")
+    file = open("text8.txt", "r")
     numList = []
     for line in file:
         for num in line.strip():
