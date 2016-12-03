@@ -1,5 +1,5 @@
 def main():
-    myfile = open("primes.dat","r")
+    myfile = open("primes35.dat","r")
     primes = []
     for line in myfile:
         for prime in line.strip().split():
