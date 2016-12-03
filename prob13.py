@@ -1,5 +1,5 @@
 def main():
-    file = open("text.txt", "r")
+    file = open("text13.txt", "r")
     numList = []
     sum = 0
     for line in file:
