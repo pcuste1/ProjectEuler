@@ -1,7 +1,7 @@
 # Also my solution to problem #67
 
 def main():
-    file = open("text.txt","r")
+    file = open("text18.txt","r")
     list = []
     for line in file:
         line = line.strip().split()
