@@ -18,7 +18,7 @@ def extention(grid, row, col, rowMod, colMod, distance):
 
     
 def main():
-    file = open("text.txt", "r")
+    file = open("text11.txt", "r")
     grid = []
     for line in file:
         numList = []
