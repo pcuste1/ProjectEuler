@@ -3,7 +3,7 @@ import math
 # create a list of primes
 def prime():
     primeList = []
-    myFile = open("primes.dat", "r")
+    myFile = open("primes27.dat", "r")
     for line in myFile:
         for num in line.strip().split():
             if(int(num) < 1000):
