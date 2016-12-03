@@ -9,7 +9,7 @@ def sort(names):
         names[small] = holder
             
 def main():
-    namesFile = open("names.txt", "r")
+    namesFile = open("names22.txt", "r")
     names = []
     
     for line in namesFile:
@@ -22,7 +22,6 @@ def main():
     count = 1
     for word in names:
         letSum = 0
-       
         for lett in word:
             letSum += ord(lett) - 64
         #print(word, ": ", count * letSum)
